@@ -14,5 +14,5 @@ All I've done with MATLAB
         - Lineas: 559
     
     - __Modelado y Simulacion (MINCAR)__:
-        - Practicas: 4
-        - Lienas: 792
+        - Prácticas: 12
+        - Lienas: 1.389
