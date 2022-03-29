@@ -12,3 +12,7 @@ All I've done with MATLAB
 
     - __Control Digital (MINCAR)__:
         - Lineas: 559
+    
+    - __Modelado y Simulacion (MINCAR)__:
+        - Practicas: 4
+        - Lienas: 792
