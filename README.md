@@ -23,3 +23,7 @@ All I've done with MATLAB
 - __Control Predictivo y Robusto (MINCAR)__:
     - Prácticas: 7
     - Lineas: ~5.000
+
+- __Ténicas Inteligentes de Aprendizaje (MINCAR)__:
+    - Prácticas: 7 terminadas
+    - Líneas: 3.354
