@@ -16,3 +16,6 @@ All I've done with MATLAB
     - __Modelado y Simulacion (MINCAR)__:
         - Prácticas: 12
         - Lienas: 1.389
+    
+    - __Control Inteligente (MINCAR)__:
+        - Lineas: 376

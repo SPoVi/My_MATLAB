@@ -1,0 +1,49 @@
+[System]
+Name='fismandani'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='E'
+Range=[-1 1]
+NumMFs=3
+MF1='N':'trimf',[-2 -1 0]
+MF2='Z':'trimf',[-1 0 1]
+MF3='P':'trimf',[0 1 2]
+
+[Input2]
+Name='delE'
+Range=[-1 1]
+NumMFs=3
+MF1='N':'trimf',[-2 -1 0]
+MF2='Z':'trimf',[-1 0 1]
+MF3='P':'trimf',[0 1 2]
+
+[Output1]
+Name='U'
+Range=[-1 1]
+NumMFs=5
+MF1='NB':'trimf',[-1.5 -1 -0.5]
+MF2='NM':'trimf',[-1 -0.5 0]
+MF3='Z':'trimf',[-0.5 0 0.5]
+MF4='PM':'trimf',[0 0.5 1]
+MF5='PB':'trimf',[0.5 1 1.5]
+
+[Rules]
+1 1, 1 (1) : 1
+2 1, 2 (1) : 1
+3 1, 3 (1) : 1
+1 2, 2 (1) : 1
+2 2, 3 (1) : 1
+3 2, 4 (1) : 1
+1 3, 3 (1) : 1
+2 3, 4 (1) : 1
+3 3, 4 (1) : 1
